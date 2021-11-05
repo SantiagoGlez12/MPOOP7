@@ -19,6 +19,13 @@ class Main {
     ballena1.setNombre("Mobby Dick");
     System.out.println(ballena1.getNombre());
 
+    Perro perro1 = new Perro();
+    perro1.setNombre("Firulais");
+    System.out.println(perro1.getNombre());
+
+    Pajaro pajaro1 = new Pajaro();
+    pajaro1.setNombre("Tony");
+    System.out.println(pajaro1.getNombre());
 
   }
 }

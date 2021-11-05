@@ -19,4 +19,20 @@ public class Animal{
   public String getNombre(){
     return nombre;
   }
+
+  public void setLugarOrigen(String lugarOrigen){
+    this.lugarOrigen = lugarOrigen;
+  }
+
+  public String getLugarOrigen(){
+    return lugarOrigen;
+  }
+
+  public void setColor(String color){
+    this.color = color;
+  }
+
+  public String getColor(){
+    return color;
+  }
 }

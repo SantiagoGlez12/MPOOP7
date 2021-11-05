@@ -7,8 +7,15 @@ public class AnimalAcuatico extends Animal{
     System.out.println("estoy nadando");
   }
 
-  @Override
+  public void setAletas(int aletas){
+    this.aletas = aletas;
+  }
 
+  public int getAletas(){
+    return aletas;
+  }
+  
+  @Override
   public void comer(){
     System.out.println("Estoy comiendo peces");
   }

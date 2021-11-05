@@ -7,4 +7,12 @@ public class Ballena extends AnimalAcuatico{
     System.out.println("Estoy peleando con Pinoccio");
   }
 
+  public void setLargo(int largo){
+    this.largo = largo;
+  }
+
+  public int getLargo(){
+    return largo;
+  }
+
 }
